@@ -55,7 +55,7 @@ class SiswaController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
+    { 
           if(!Auth::check()){
             return redirect('login');
         }
